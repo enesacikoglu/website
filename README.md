@@ -5,7 +5,10 @@ This application was generated using JHipster 5.3.4, you can find documentation 
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
 
-1. [Node.js][]: We use Node to run a development web server and build the project.
+1. The mySQL database needs to be created on the local server. The configuration can be found in `/src/main/resources/config/application-dev.yml`. When the application spins up
+for the first time all of the necessary tables will be created. 
+
+2. [Node.js][]: We use Node to run a development web server and build the project.
    Depending on your system, you can install Node either from source or as a pre-packaged bundle.
 
 After installing Node, you should be able to run the following command to install development tools.

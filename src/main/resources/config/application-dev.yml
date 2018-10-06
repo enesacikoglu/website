@@ -35,9 +35,9 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://localhost:3306/socisWeb?useUnicode=true&characterEncoding=utf8&useSSL=false
-        username: root
-        password:
+        url: jdbc:mysql://localhost:3306/socisWebDev?useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: socisWeb_dev
+        password: password1
         hikari:
             auto-commit: false
             data-source-properties:
